@@ -82,3 +82,19 @@ nav li a:hover{
     background-color: black;
 }
 
+
+#October p {
+    display: inline;
+}
+
+#OctTime {
+    font-style: italic;
+}
+
+#daysOct{
+    font-weight: bold;
+}
+
+#hoursOct{
+    font-weight: bold;
+}

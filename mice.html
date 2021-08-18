@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jan Felix van Son - home</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="pictures/favicon.ico" />
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="gaming.html">gaming</a></li>
+                <li><a href="tech.html">tech</a></li>
+                <li><a href="photography.html">photography</a></li>
+                <li><a href="aurora.html">aurora</a></li>
+                <li><a href="dev.html">dev</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Mice Days Counter</h1>
+            <div id="October">
+                <h2>October Party</h2>
+                <p id="OctHead">Mice time till October party:</p>
+                <div id="OctTime">
+                    <p id="daysOct"></p> <p>days</p> <p>and</p> <p id=hoursOct></p> <p>hours</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var October = new Date("Oct 28, 2021 12:20:00").getTime();
+
+        var timerOctober = setInterval(function () {
+            var now = new Date().getTime();
+            var timeleft = October - now;
+
+            var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); 
+            document.getElementById("daysOct").innerHTML = days
+            document.getElementById("hoursOct").innerHTML = hours
+
+        })
+    </script>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
