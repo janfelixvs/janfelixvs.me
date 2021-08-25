@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <title>Jan Felix van Son - home</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="icon" href="pictures/favicon.ico"/>
+    <link rel="icon" href="pictures/favicon.ico" />
+    <script src="weteS.js"></script>
 </head>
 
 <body>
@@ -22,14 +23,24 @@
             </ul>
         </nav>
         <div class="content">
-            <h1>home</h1>
-
-            <img src="pictures/index_main_large.jpg" alt="View of a river - at Bingen">
-
-            <p>You are welcome to my website. There are pages for different topics; mainly my interests. <br>
-                I am 25 years old, study computer science and come from germany. <br>
-                Have a pleasant stay on my site. 
-            </p>
+            <h1>WETE</h1>
+            <div>
+                <h2>Palindrom</h2>
+                <input type="text" id="iPa" placeholder="Exp.: OTTO">
+                <button type="button" onclick="PaInput()">Confirm</button>
+                <p id="oPa"></p>
+            </div>
+            <div>
+                <h2>Random Array</h2>
+                <button type="button" onclick="randArr()">Random Array</button>
+                <p id="oRA">Output</p>
+            </div>
+            <div>
+                <h2>Filter Array</h2>
+                <p>1, 2, 'hello', { a: 'a', b: 1 }, true, [1, 2, 3, 4], false, 2</p>
+                <button type="button" onclick="actionFilter()">Random Array</button>
+                <p id="oFA">Output</p>
+            </div>            
         </div>
     </div>
 

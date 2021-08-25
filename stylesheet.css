@@ -1,10 +1,31 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body {
+    style="min-height:100vh;
+    display:flex;
+    flex-direction:column; 
+    justify-content:space-between;
     margin: 0;
     background-color: #1A1A1A;
     color: white;
     font-family: Georgia,serif;
     font-size: 1.3em;
     line-height: 1.5;
+    height: 100%;
+    padding: 0;
+       
+}
+
+button {
+    background-color: #1A1A1A;
+    color: white;
+    box-shadow: none;
+    outline:none;
+    border: 1px solid white;
+
 }
 
 h1 {
@@ -45,10 +66,10 @@ ul{
 }
 
 footer{
+    clear: both;
+    position: relative;
+
     text-align: center;
-    position:relative;
-    bottom: 0;
-    width: 100%;
     color: #E5E5E5;
     background-color: #3F3F3F;
 }
