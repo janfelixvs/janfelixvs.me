@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    style="min-height:100vh;
+    min-height:100vh;
     display:flex;
     flex-direction:column; 
     justify-content:space-between;
@@ -16,7 +16,6 @@ body {
     line-height: 1.5;
     height: 100%;
     padding: 0;
-       
 }
 
 button {
