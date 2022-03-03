@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     height: 100%;
+    text-size-adjust: none;
+-webkit-text-size-adjust: none;
 }
 
 body {
@@ -17,6 +19,10 @@ body {
     height: 100%;
     padding: 0;
 }
+section{
+    font-size: 1.5em;
+}
+
 
 button {
     background-color: #1A1A1A;
@@ -44,6 +50,10 @@ img {
 ul{
     list-style: square;
 }
+
+#gaming th, td {
+    padding-right: 1em;
+  }
 
 #memories img{
     margin-top: 30px;
@@ -100,21 +110,4 @@ nav li a{
 
 nav li a:hover{
     background-color: black;
-}
-
-
-#October p {
-    display: inline;
-}
-
-#OctTime {
-    font-style: italic;
-}
-
-#daysOct{
-    font-weight: bold;
-}
-
-#hoursOct{
-    font-weight: bold;
 }
