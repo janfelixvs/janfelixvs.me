@@ -24,6 +24,7 @@ section{
 }
 
 
+
 button {
     background-color: #1A1A1A;
     color: white;
@@ -101,7 +102,7 @@ nav li{
 } 
 
 nav li a{
-    font-size: 1.5em;
+    font-size: 2.5em;
     text-decoration: none;
     padding: 10px;
     color: white;
@@ -110,4 +111,23 @@ nav li a{
 
 nav li a:hover{
     background-color: black;
+}
+
+#undermenu ul{
+    text-align: center;
+    list-style: none;
+}
+
+#undermenu li{
+    display: inline;
+    list-style: none;
+}
+
+#contactmenu ul{
+    list-style-type: none;
+}
+
+#contactmenu li{
+    display: inline;
+    list-style: none;
 }
