@@ -151,3 +151,12 @@ nav li a:hover{
       font-size: 1.5em;
   }
 }
+
+
+/* Responsive design for mobile devices */
+@media only screen and (max-width: 768px) {
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
