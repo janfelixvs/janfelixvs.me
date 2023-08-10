@@ -16,13 +16,13 @@ body {
   line-height: 1.5;
   height: 100%;
   padding: 0;
+  overflow-x: hidden;
+  /* Added to hide horizontal overflow */
 }
 
 section {
   font-size: 1.3em;
 }
-
-
 
 button {
   background-color: #1A1A1A;
@@ -30,7 +30,6 @@ button {
   box-shadow: none;
   outline: none;
   border: 1px solid white;
-
 }
 
 h1 {
@@ -45,7 +44,10 @@ a {
 
 img {
   border-radius: 5px;
-  width: max(900px);
+  width: 100%;
+  /* Set to 100% to ensure images are always responsive */
+  max-width: 900px;
+  /* Ensures the max width is 900px on larger screens */
 }
 
 ul {
@@ -67,7 +69,6 @@ td {
 
 #screenshots img {
   margin-top: 30px;
-
 }
 
 .main {
@@ -81,7 +82,6 @@ td {
 footer {
   clear: both;
   position: relative;
-
   text-align: center;
   color: #E5E5E5;
   background-color: #3F3F3F;
@@ -157,7 +157,6 @@ nav li a:hover {
     font-size: 1.5em;
   }
 }
-
 
 /* Responsive design for mobile devices */
 @media only screen and (max-width: 768px) {
