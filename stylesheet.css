@@ -1,25 +1,26 @@
 html {
   margin: 0;
   height: 100%;
-  text-size-adjust: none;
--webkit-text-size-adjust: none;
+
+  -webkit-
 }
 
 body {
-  min-height:100vh;
-  display:flex;
-  flex-direction:column; 
-    justify-content:space-between;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 0;
   background-color: #1A1A1A;
   color: white;
-  font-family: Georgia,serif;
+  font-family: Georgia, serif;
   font-size: 1.3em;
   line-height: 1.5;
   height: 100%;
   padding: 0;
 }
-section{
+
+section {
   font-size: 1.3em;
 }
 
@@ -29,7 +30,7 @@ button {
   background-color: #1A1A1A;
   color: white;
   box-shadow: none;
-  outline:none;
+  outline: none;
   border: 1px solid white;
 
 }
@@ -38,6 +39,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
 }
+
 a {
   color: rgb(154, 175, 223);
   text-decoration: none;
@@ -48,47 +50,51 @@ img {
   width: max(900px);
 }
 
-ul{
+ul {
   list-style: square;
 }
 
-#gaming th, td {
+#gaming th,
+td {
   padding-right: 1em;
-  }
+}
 
-#memories img{
+#memories img {
   margin-top: 30px;
 }
 
-#last{
+#last {
   margin-bottom: 100px;
 }
 
-#screenshots img{
+#screenshots img {
   margin-top: 30px;
-  
-}
-.main{
-  margin: 0 auto;
-  display: flex;
-  flex-direction:column;
-  width: 900px;
+
 }
 
-footer{
+.main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  width: 100%;
+}
+
+footer {
   clear: both;
   position: relative;
 
-    text-align: center;
+  text-align: center;
   color: #E5E5E5;
   background-color: #3F3F3F;
 }
 
-nav{
+nav {
   flex-wrap: wrap-reverse;
   padding-top: 20px;
 }
-nav ul{
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 15px;
@@ -97,11 +103,11 @@ nav ul{
   border-radius: 5px;
 }
 
-nav li{
-  float:left
-} 
+nav li {
+  float: left
+}
 
-nav li a{
+nav li a {
   font-size: 2.5em;
   text-decoration: none;
   padding: 10px;
@@ -109,25 +115,25 @@ nav li a{
   text-align: center;
 }
 
-nav li a:hover{
+nav li a:hover {
   background-color: black;
 }
 
-#undermenu ul{
+#undermenu ul {
   text-align: center;
   list-style: none;
 }
 
-#undermenu li{
+#undermenu li {
   display: inline;
   list-style: none;
 }
 
-#contactmenu ul{
+#contactmenu ul {
   list-style-type: none;
 }
 
-#contactmenu li{
+#contactmenu li {
   display: inline;
   list-style: none;
 }
@@ -135,28 +141,30 @@ nav li a:hover{
 /* Responsive styles for tablet and mobile */
 @media (max-width: 1000px) {
   .main {
-      width: 80%;
+    width: 80%;
   }
+
   img {
-      width: 100%;
+    width: 100%;
   }
 }
 
 @media (max-width: 600px) {
   .main {
-      width: 100%;
-      padding: 0 10px;
+    width: 100%;
+    padding: 0 10px;
   }
+
   nav li a {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 
 
 /* Responsive design for mobile devices */
 @media only screen and (max-width: 768px) {
-    .main {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+  .main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
